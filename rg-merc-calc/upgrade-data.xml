@@ -1,0 +1,308 @@
+<xml>
+    <upgrade>
+        <name>Pixie Dust Fertilizer</name>
+        <spec>Fairy (1.1)</spec>
+        <description>Increase the base production of
+            Farms by +98 and reduce the building cost multiplier. Reduces cost multiplier by 0.035; with no other
+            reductions applying, the multiplier will be 1.115 instead of 1.15.
+        </description>
+    </upgrade>
+    <upgrade>
+        <name>Fairy Cuisine</name>
+        <spec>Fairy (1.2)</spec>
+        <description>Increase the base production of
+            Inns by +234 and reduce the building cost multiplier. Reduces cost multiplier by 0.03; with no other
+            reductions applying, the multiplier will be 1.12 instead of 1.15.
+        </description>
+    </upgrade>
+    <upgrade>
+        <name>Starmetal Alloys</name>
+        <spec>Fairy (1.3)</spec>
+        <description>Increase the base production of
+            Blacksmiths by +580 and reduce the building cost multiplier. Reduces cost multiplier by 0.025; with
+            no other reductions applying, the multiplier will be 1.125 instead of 1.15.
+        </description>
+    </upgrade>
+    <upgrade>
+        <name>Elven Mint</name>
+        <spec>Elf (1.1)</spec>
+        <description>The base chance to find Faction
+            Coins is doubled.
+        </description>
+    </upgrade>
+    <upgrade>
+        <name>Elven Treasure Casing</name>
+        <spec>Elf (1.2)</spec>
+        <description>Increase base clicking reward by
+            (250k per unlocked trophy), and increase chance to find faction coins based on the amount of trophies you
+            unlocked. Formula: floor((1 + 0.05 * x)^0.95) &#160;where x is your Trophies Unlocked stat.
+        </description>
+    </upgrade>
+    <upgrade>
+        <name>Sylvan Treasure Frills</name>
+        <spec>Elf (1.3)</spec>
+        <description>Increase clicking reward by 80%
+            of your building production.
+        </description>
+    </upgrade>
+    <upgrade>
+        <name>Holy Bells</name>
+        <spec>Angel (1.1)</spec>
+        <description>Cathedrals also increase your
+            mana regeneration rate. Formula: x^0.28 &#160;where x is the number of Cathedrals you
+            own. Formula: x^(100 / 28) &#160;where x is your desired mana regen.
+        </description>
+    </upgrade>
+    <upgrade>
+        <name>Angelic Determination</name>
+        <spec>Angel (1.2)</spec>
+        <description>Increase the production of all
+            buildings based on spells cast in this game. Formula: 1.5 * x^0.85% &#160;where x is your Spells Cast
+            (This Game) stat.
+        </description>
+    </upgrade>
+    <upgrade>
+        <name>Angel Feathers</name>
+        <spec>Angel (1.3)</spec>
+        <description>Increase mana regeneration by 40%.
+        </description>
+    </upgrade>
+    <upgrade>
+        <name>Dwarven Ale</name>
+        <spec>Dwarf (1.1)</spec>
+        <description>Increase the production of all
+            buildings by 1% per Inn you own.
+
+        </description>
+    </upgrade>
+    <upgrade>
+        <name>Expert Masonry</name>
+        <spec>Dwarf (1.2)</spec>
+        <description>Reduce all building cost
+            multipliers. Reduces cost multiplier by 0.02; with no other reductions applying, the multiplier will
+            be 1.13 instead of 1.15.
+
+        </description>
+    </upgrade>
+    <upgrade>
+        <name>Mining Prodigies</name>
+        <spec>Dwarf (1.3)</spec>
+        <description>Increase the production of all
+            buildings based on the total amount of Excavations you made. Formula: 10 * x^0.9% &#160;where x is
+            the number of excavations you've purchased.
+
+        </description>
+    </upgrade>
+    <upgrade>
+        <name>Strong Currency</name>
+        <spec>Goblin (1.1)</spec>
+        <description>Increase the production of all
+            buildings based on the amount of Faction Coins found in this game. Formula: ln^3(x)% &#160;where x is
+            your Faction Coins Gained (This Game) stat.
+
+        </description>
+    </upgrade>
+    <upgrade>
+        <name>Slave Trading</name>
+        <spec>Goblin (1.2)</spec>
+        <description>Increase the production of all
+            buildings by 0.75% per Slave Pen you own.
+
+        </description>
+    </upgrade>
+    <upgrade>
+        <name>Cheap Materials</name>
+        <spec>Goblin (1.3)</spec>
+        <description>Increase the production of all
+            buildings based on the cost of a BuyMAX Witch Conclave. Formula: round(2 * ln(1 + x))% &#160;where x
+            is the cost displayed for Witch Conclaves with Buy set to MAX.
+
+        </description>
+    </upgrade>
+    <upgrade>
+        <name>The Walking Dead</name>
+        <spec>Undead (1.1)</spec>
+        <description>Increase the production of
+            Necropolises by 5000%. PA: 48.2%
+
+        </description>
+    </upgrade>
+    <upgrade>
+        <name>Deadened Muscles</name>
+        <spec>Undead (1.2)</spec>
+        <description>Increase the production of all
+            buildings by 1.5% per Necropolis you own.
+
+        </description>
+    </upgrade>
+    <upgrade>
+        <name>Death Temples</name>
+        <spec>Undead (1.3)</spec>
+        <description>Dark Temples also increase your
+            mana regeneration rate. Formula: x^0.275 &#160;where x is the number of Dark Temples you own.
+
+        </description>
+    </upgrade>
+    <upgrade>
+        <name>Torture Chambers</name>
+        <spec>Demon (1.1)</spec>
+        <description>Increase the production of Evil
+            Fortresses by 5% for each assistant you own.
+
+        </description>
+    </upgrade>
+    <upgrade>
+        <name>Devil Tyrant</name>
+        <spec>Demon (1.2)</spec>
+        <description>Increase the production of the
+            three highest building tiers by 0.5% for each trophy you unlocked.
+
+        </description>
+    </upgrade>
+    <upgrade>
+        <name>Evil Conquerors</name>
+        <spec>Demon (1.3)</spec>
+        <description>Increase the production of all
+            buildings by 1.5% per Evil Fortress you own.
+
+        </description>
+    </upgrade>
+    <upgrade>
+        <name>Underworld Tyranny</name>
+        <spec>Drow (1.1)</spec>
+        <description>Increase the production of all
+            buildings based on your total time spent being Evil. Formula: (15 * x)^0.7% &#160;where x is your
+            Time Spent being Evil (Total) stat&#160;in hours.
+
+        </description>
+    </upgrade>
+    <upgrade>
+        <name>Honor Among Killers</name>
+        <spec>Drow (1.2)</spec>
+        <description>Increase Faction Coin find
+            chance based on the amount of assistants you own. Formula: floor(3 * x^0.9) &#160;where x is your
+            Assistants stat.
+
+        </description>
+    </upgrade>
+    <upgrade>
+        <name>Shadow Advance</name>
+        <spec>Drow (1.3)</spec>
+        <description>Increase the production of all
+            buildings by 750% while you have no spells active. Also increase Offline production by the same amount.
+
+        </description>
+    </upgrade>
+    <upgrade>
+        <name>Colossal Forge</name>
+        <spec>Titan (1.1)</spec>
+        <description>Increase the production of all
+            buildings by 1% per Blacksmith you own.
+
+        </description>
+    </upgrade>
+    <upgrade>
+        <name>Charged Clicks</name>
+        <spec>Titan (1.2)</spec>
+        <description>Whenever you cast a spell, your
+            click reward is increased by 250% for 20 seconds. If another spell is cast while this effect is active, it
+            is restored to full duration. Note: despite its description, Charged Clicks applies to all buildings,
+            and is identical in effect to Charged Structures.
+
+        </description>
+    </upgrade>
+    <upgrade>
+        <name>Oversized Legends</name>
+        <spec>Titan (1.3)</spec>
+        <description>Reduce Hall of Legends building
+            cost multiplier and increase assistants production by 1% per Hall of Legends you own. Reduces cost
+            multiplier by 0.02; with no other reductions applying, the multiplier will be 1.13 instead of 1.15.
+
+        </description>
+    </upgrade>
+    <upgrade>
+        <name>Druidic Vocabulary</name>
+        <spec>Druid (1.1)</spec>
+        <description>Increase the production of all
+            buildings based on their tier, giving the best bonus to the lowest. Formula: 4000 * x% &#160;where x
+            is the building tier, starting at 1 for Halls of Legends and increasing to 11 for Farms.
+
+        </description>
+    </upgrade>
+    <upgrade>
+        <name>Animal Companions</name>
+        <spec>Druid (1.2)</spec>
+        <description>You instantly attract 3 Animal
+            assistants and more will come based on the time spent in
+            this game. Formula: floor((sqrt(1 + 12 * x) - 1) / 2) &#160;where x is your your Playtime (This Game)
+            stat&#160;in hours.
+
+        </description>
+    </upgrade>
+    <upgrade>
+        <name>Natural Recycling</name>
+        <spec>Druid (1.3)</spec>
+        <description>Increase Faction Coin find
+            chance additively and multiplicatively based on the amount of the least productive building you own.
+            Formula:
+            (x^0.35) &#160;where x is the amount of the building with the lowest production.
+
+        </description>
+    </upgrade>
+    <upgrade>
+        <name>Territorial Expanse</name>
+        <spec>Faceless (1.1)</spec>
+        <description>You have a chance to have a
+            Labyrinth built for free each time you click for money. This chance is based on your income per second and
+            the cost of the next Labyrinth. Labyrinths production is also increased by 5,000% for each assistant you
+            own. Formula: min(100, 30 * (P + A)/C))% where P is production per second excluding assistants, A is
+            the production per second of one assistant, and C is the cost to buy one Labyrinth.
+
+        </description>
+    </upgrade>
+    <upgrade>
+        <name>Evolutive Mutation</name>
+        <spec>Faceless (1.2)</spec>
+        <description>Increase Faction Coin find
+            chance based on the amount of Labyrinths you own. Formula: floor(3 * x^0.6) &#160;where x is the
+            number of Labyrinths you own.
+
+        </description>
+    </upgrade>
+    <upgrade>
+        <name>Deep Memory</name>
+        <spec>Faceless (1.3)</spec>
+        <description>Increase the production of all
+            buildings based on the time spent on your longest game session.Formula:
+            floor(35 * x^0.85)% &#160;where x is your Playtime (Longest Session) stat in hours. Formula:
+            (35 * x^1.1) &#160;where x is your Playtime (Longest Session) stat in hours with Dragon Challenge 3.
+
+        </description>
+    </upgrade>
+    <upgrade>
+        <name>Dragonscales</name>
+        <spec>Dragon (1,1)</spec>
+        <description>Increase the production of Stone
+            Pillars, Labyrinths, and Halls of Legends based on the total amount of time spent as Neutral. Formula:
+            ({(1.25 * t / 60)^0.55)}%) &#160;where x is total amount of time spent as Neutral.
+
+        </description>
+    </upgrade>
+    <upgrade>
+        <name>Iron Flight</name>
+        <spec>Dragon (1,2)</spec>
+        <description>Increase the production of Iron
+            Strongholds by 2000% when affected by any spell.
+
+        </description>
+    </upgrade>
+    <upgrade>
+        <name>Eternal Wisdom</name>
+        <spec>Dragon (1,3)</spec>
+        <description>Increase the production of all
+            buildings based on Royal Exchange bonus. Formula: ({2 * (x^1.15)}%) &#160;where x is Royal Exchange
+            bonus.
+
+        </description>
+    </upgrade>
+</xml>
