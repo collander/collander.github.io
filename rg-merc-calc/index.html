@@ -8,7 +8,7 @@
             //Build an XML containing Customer records.
             $.get('upgrade-data.xml', function(data){
 
-                var xmlDoc = $.parseXML(data);
+                var xmlDoc = data;
                 var customers = $(xmlDoc).find("upgrade");
 
                 //Create a HTML Table element.
